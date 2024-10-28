@@ -7,7 +7,7 @@
 import { Inject, Injectable, Logger } from '@nestjs/common';
 import { BaseH5st } from './baseH5st';
 import { H5stVersion, KVType, LocalTokenVersion } from './type';
-import { H5stAlgoConfigCollection, H5stInitConfig } from './h5stAlgoConfig';
+import { H5stAlgoConfigCollection, H5stInitConfig } from '../../config/h5st.config';
 import { ClsService } from 'nestjs-cls';
 import { Cache, CACHE_MANAGER } from 'nestjs-cache-manager-v6';
 import { getRandomIDPro } from '../../utils/baseUtils';

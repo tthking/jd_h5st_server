@@ -3,7 +3,7 @@
  * Description: 获取redis配置
  * Author: zhx47
  */
-import { strictBoolean } from '../../utils/baseUtils';
+import { strictBoolean } from '../utils/baseUtils';
 import { registerAs } from '@nestjs/config';
 import * as process from 'node:process';
 

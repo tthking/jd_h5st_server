@@ -5,7 +5,7 @@
  */
 
 import * as CryptoJS from 'crypto-js';
-import { H5stInitConfig } from './h5stAlgoConfig';
+import { H5stInitConfig } from '../../config/h5st.config';
 import { ClsService } from 'nestjs-cls';
 import {
   containsReservedParamName,

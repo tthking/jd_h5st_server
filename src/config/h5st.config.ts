@@ -1,10 +1,10 @@
 /**
- * File: h5stAlgoConfig.ts
+ * File: h5st.config.ts
  * Description: h5st 加签算法参数配置
  * Author: zhx47
  */
 
-import { H5stAlgoConfigType, H5stVersion } from './type';
+import { H5stAlgoConfigType, H5stVersion } from '../services/h5st/type';
 
 export class H5stInitConfig {
   debug?: boolean = false;
@@ -601,13 +601,13 @@ class Xcx471AlgoConfig implements H5stAlgoConfigType {
       secret2: '$Yr%39]TC2u_p<&9',
     },
   };
-  customAlgorithm: {
-    salt: 'j04vfp';
-    map: 'WVUTSRQPONMLKJIHGFEDCBA-_9876543210zyxwvutsrqponmlkjihgfedcbaZYX';
-    keyReverse: true;
+  customAlgorithm = {
+    salt: 'j04vfp',
+    map: 'WVUTSRQPONMLKJIHGFEDCBA-_9876543210zyxwvutsrqponmlkjihgfedcbaZYX',
+    keyReverse: true,
     convertIndex: {
-      hmac: 4;
-    };
+      hmac: 4,
+    },
   };
 }
 
@@ -646,13 +646,13 @@ class Xcx491AlgoConfig implements H5stAlgoConfigType {
       prefix: 'kM',
     },
   };
-  customAlgorithm: {
-    salt: '$_+0zz';
-    map: 'rqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_9876543210zyxwvuts';
+  customAlgorithm = {
+    salt: '$_+0zz',
+    map: 'rqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_9876543210zyxwvuts',
     convertIndex: {
-      hex: 8;
-      hmac: 2;
-    };
+      hex: 8,
+      hmac: 2,
+    },
   };
 }
 

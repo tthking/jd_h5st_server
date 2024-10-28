@@ -32,7 +32,7 @@ import { LocalTokenV4 } from './services/token/localTokenV4';
 import { CacheModule } from 'nestjs-cache-manager-v6';
 import { WinstonModule } from 'nest-winston';
 import { CacheConfigService } from './services/cache/cache.service';
-import cacheConfig from './services/cache/cache.config';
+import cacheConfig from './config/cache.config';
 import { WinstonConfigService } from './services/logger/winston.config';
 import { v4 } from 'uuid';
 import { Request } from 'express';
