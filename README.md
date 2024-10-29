@@ -6,5 +6,7 @@
 
 关联博客：[京东H5ST算法接口](https://blog.zhx47.top/archives/1719150000000)
 
+关联视频：[H5ST4.7 解 VMP 纯算示例](https://b23.tv/dCIit5f)
+
 # 不接定制化脚本！！！
 
